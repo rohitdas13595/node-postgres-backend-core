@@ -44,7 +44,7 @@ export interface QueryOption<E> {
   /**
    * Field on which the order should be applied
    */
-  field?: keyof BaseEntity;
+  field?: keyof E;
   /**
    * Where condition
    */
